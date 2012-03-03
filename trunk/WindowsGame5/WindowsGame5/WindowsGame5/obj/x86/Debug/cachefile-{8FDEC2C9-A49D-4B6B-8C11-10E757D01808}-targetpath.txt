@@ -1,0 +1,11 @@
+Content\ball.xnb
+Content\wall.xnb
+Content\floor.xnb
+Content\FSsprites\spr_fall_left.xnb
+Content\FSsprites\spr_fall_right.xnb
+Content\FSsprites\spr_fs_still_left.xnb
+Content\FSsprites\spr_fs_still_right.xnb
+Content\FSsprites\spr_jump_up_left.xnb
+Content\FSsprites\spr_jump_up_right.xnb
+Content\FSsprites\spr_slide_left.xnb
+Content\FSsprites\spr_slide_right.xnb
