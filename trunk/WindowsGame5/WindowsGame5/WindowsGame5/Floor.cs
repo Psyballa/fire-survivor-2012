@@ -9,6 +9,13 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
+using FarseerPhysics.Collision;
+using FarseerPhysics.Collision.Shapes;
+using FarseerPhysics.Common;
+using FarseerPhysics.Controllers;
+using FarseerPhysics.Dynamics;
+using FarseerPhysics.Factories;
+
 namespace WindowsGame5
 {
     class Floor

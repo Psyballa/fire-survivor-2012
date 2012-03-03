@@ -9,10 +9,14 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
+using FarseerPhysics.Dynamics;
+using FarseerPhysics.Factories;
+
 namespace WindowsGame5
 {
     public class Game1 : Microsoft.Xna.Framework.Game
     {
+        World world = new World(Vector2.Zero);
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         Ball Jerry;
@@ -27,7 +31,7 @@ namespace WindowsGame5
             Content.RootDirectory = "Content";
             Window.AllowUserResizing = false;
             Window.ClientSizeChanged += new EventHandler<EventArgs>(Window_ClientSizeChanged);
-            Jerry = new Ball();
+            Jerry = new Ball(0, 0);
             Tom = new Floor(100, 720, 0, 350);
             floor = new Floor(120, 1280, 0, 600);
         }

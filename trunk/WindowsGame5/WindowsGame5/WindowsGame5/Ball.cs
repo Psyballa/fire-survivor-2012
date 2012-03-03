@@ -10,6 +10,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
 using FarseerPhysics.Collision;
+using FarseerPhysics.Collision.Shapes;
 using FarseerPhysics.Common;
 using FarseerPhysics.Controllers;
 using FarseerPhysics.Dynamics;
@@ -25,6 +26,17 @@ namespace WindowsGame5
         Vector2 ballPosition = Vector2.Zero;
         int ballCollisionRectOffset = 10;
         public Boolean collided = false;
+        Body playerBody;
+        Fixture playerFix;
+        CircleShape playerBodyShape;
+
+        public Ball(int BallStartX, int BallStartY)
+        {
+            playerBody.BodyType = BodyType.Dynamic;
+            playerBodyShape = new CircleShape(1.0f, 1.0f);
+            playerFix = playerBody.CreateFixture(playerBodyShape);
+            //gameWorld.AddBody(playerBody);
+        }
 
         public void Update(GameTime gameTime)
         {

@@ -32,3 +32,6 @@ C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\obj\x8
 C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.exe
 C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.pdb
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\FarseerPhysicsXNA.dll
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\FarseerPhysicsXNA.pdb
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\FarseerPhysicsXNA.xml
