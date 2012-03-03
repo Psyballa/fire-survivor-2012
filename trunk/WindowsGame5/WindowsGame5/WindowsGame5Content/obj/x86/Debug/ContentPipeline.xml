@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jack\Documents\Visual Studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\ball.xnb</Output>
+      <Output>C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\ball.xnb</Output>
       <Time>2012-02-27T02:41:10.27876-08:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jack\Documents\Visual Studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\wall.xnb</Output>
+      <Output>C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\wall.xnb</Output>
       <Time>2012-02-28T23:37:27.2119288-08:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\floor.xnb</Output>
+      <Output>C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\floor.xnb</Output>
       <Time>2012-03-01T19:44:36.4459986-08:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fall_left.xnb</Output>
+      <Output>C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fall_left.xnb</Output>
       <Time>2012-03-02T03:03:30.0387895-08:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fall_right.xnb</Output>
+      <Output>C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fall_right.xnb</Output>
       <Time>2012-03-02T03:03:30.0397896-08:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fs_still_left.xnb</Output>
+      <Output>C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fs_still_left.xnb</Output>
       <Time>2012-03-02T03:03:30.0427897-08:00</Time>
     </Item>
     <Item>
@@ -61,7 +61,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fs_still_right.xnb</Output>
+      <Output>C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fs_still_right.xnb</Output>
       <Time>2012-03-02T03:03:30.0437898-08:00</Time>
     </Item>
     <Item>
@@ -70,7 +70,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_jump_up_left.xnb</Output>
+      <Output>C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_jump_up_left.xnb</Output>
       <Time>2012-03-02T03:03:30.0457899-08:00</Time>
     </Item>
     <Item>
@@ -79,7 +79,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_jump_up_right.xnb</Output>
+      <Output>C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_jump_up_right.xnb</Output>
       <Time>2012-03-02T03:03:30.04779-08:00</Time>
     </Item>
     <Item>
@@ -88,7 +88,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_slide_left.xnb</Output>
+      <Output>C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_slide_left.xnb</Output>
       <Time>2012-03-02T03:03:30.0487901-08:00</Time>
     </Item>
     <Item>
@@ -97,7 +97,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_slide_right.xnb</Output>
+      <Output>C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_slide_right.xnb</Output>
       <Time>2012-03-02T03:03:30.0507902-08:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -106,10 +106,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

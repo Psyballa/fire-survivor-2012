@@ -16,14 +16,9 @@ namespace WindowsGame5
         Texture2D ball;
         float velocityX;
         float velocityY;
-        int minPosX = 0;
-        int minPosY = 0;
-        int maxPosY = 720;
-        int maxPosX = 1280;
         Vector2 ballPosition = Vector2.Zero;
         int ballCollisionRectOffset = 10;
         public Boolean collided = false;
-        public Boolean itsLeft = false;
 
         public void Update(GameTime gameTime)
         {
@@ -54,36 +49,24 @@ namespace WindowsGame5
             }
             if (GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.X < 0)
             {
-                if (ballPosition.X > minPosX)
-                {
-                    ballPosition.X += velocityX;
-                }
+                ballPosition.X += velocityX;
             }
             ballPosition.Y += velocityY;
             
             //so the ball doesn't go off the face of the earth
             //actually let's change this to mean max settings;
-            if (ballPosition.X < minPosX)
-                ballPosition.X = minPosX;
-            if (ballPosition.Y < minPosY)
-                ballPosition.Y = minPosY;
-            if (ballPosition.X > maxPosY - ball.Width)
-                ballPosition.X = maxPosY - ball.Width;
-            if (ballPosition.Y > maxPosX - ball.Height)
-                ballPosition.Y = maxPosX - ball.Height;
+            if (ballPosition.X < 0)
+                ballPosition.X = 0;
+            if (ballPosition.Y < 0)
+                ballPosition.Y = 0;
+            if (ballPosition.X > 1280 - ball.Width)
+                ballPosition.X = 1280 - ball.Width;
+            if (ballPosition.Y > 720 - ball.Height)
+                ballPosition.Y = 720 - ball.Height;
         }
 
         public bool Collide(Rectangle ballRect, Rectangle wallRect)
         {
-            if (collided)
-            {
-                System.Console.WriteLine(wallRect.Width);
-                if(ballRect.X < (wallRect.Width))
-                {
-                    minPosX = wallRect.Width;
-                }
-
-            }
             return ballRect.Intersects(wallRect);
         }
 
