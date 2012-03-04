@@ -1,0 +1,3 @@
+C:\Users\Psy\Desktop\Farseer Physics Engine 3.3.1 Samples XNA\DebugView XNA\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Psy\Desktop\wastegame\trunk\BrokenCycleGame\BrokenCycleGame\DebugView XNA\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\DebugView XNA\Content\obj\x86\Debug\ResolveAssemblyReference.cache
