@@ -14,15 +14,19 @@ using FarseerPhysics.Collision.Shapes;
 using FarseerPhysics.Common;
 using FarseerPhysics.Controllers;
 using FarseerPhysics.Dynamics;
+using FarseerPhysics.Dynamics.Contacts;
 using FarseerPhysics.Factories;
 
 namespace WindowsGame5
 {
-    public class Ball
+    public class Ball : Body
     {
+        public Fixture ballFixture;
         Texture2D ball;
         float velocityX;
         float velocityY;
+
+        int x, y, radius;
         Vector2 ballPosition = Vector2.Zero;
         int ballCollisionRectOffset = 10;
         public Boolean collided = false;
@@ -30,6 +34,30 @@ namespace WindowsGame5
         Fixture playerFix;
         CircleShape playerBodyShape;
 
+<<<<<<< .mine
+
+        public Ball(int x, int y, int radius)
+        {
+            this.x = x;
+            this.y = y;
+            this.radius = radius;
+            ballFixture = FixtureFactory.AttachCircle(radius, 1, this);
+            ballFixture.Body.BodyType = BodyType.Dynamic;
+            ballFixture.CollisionCategories = Category.Cat1;
+            ballFixture.CollidesWith = Category.Cat2;
+            ballFixture.OnCollision += _ballOnCollision;
+        }
+
+        public bool _ballOnCollision(Fixture fix1, Fixture fix2, Contact con)
+        {
+            if (fix2.CollisionCategories == Category.Cat2)
+            {
+                return true;
+            }
+            return false;
+        }
+
+=======
         public Ball(int BallStartX, int BallStartY)
         {
             playerBody.BodyType = BodyType.Dynamic;
@@ -38,6 +66,7 @@ namespace WindowsGame5
             //gameWorld.AddBody(playerBody);
         }
 
+>>>>>>> .r6
         public void Update(GameTime gameTime)
         {
             velocityX = (float)8.53 * GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.X;

@@ -9,9 +9,14 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
+<<<<<<< .mine
+using FarseerPhysics;
+
+=======
 using FarseerPhysics.Dynamics;
 using FarseerPhysics.Factories;
 
+>>>>>>> .r6
 namespace WindowsGame5
 {
     public class Game1 : Microsoft.Xna.Framework.Game
@@ -19,6 +24,7 @@ namespace WindowsGame5
         World world = new World(Vector2.Zero);
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        
         Ball Jerry;
         Floor Tom, floor;
 
@@ -29,11 +35,12 @@ namespace WindowsGame5
             graphics.PreferredBackBufferHeight = 720;
             graphics.PreferredBackBufferWidth = 1280;
             Content.RootDirectory = "Content";
-            Window.AllowUserResizing = false;
-            Window.ClientSizeChanged += new EventHandler<EventArgs>(Window_ClientSizeChanged);
             Jerry = new Ball(0, 0);
             Tom = new Floor(100, 720, 0, 350);
             floor = new Floor(120, 1280, 0, 600);
+            Window.AllowUserResizing = false;
+            Window.ClientSizeChanged += new EventHandler<EventArgs>(Window_ClientSizeChanged);
+
         }
 
         void Window_ClientSizeChanged(object sender, EventArgs e)
@@ -52,6 +59,7 @@ namespace WindowsGame5
             Jerry.loadContent(this);
             Tom.loadContent(this);
             floor.loadContent(this);
+
         }
 
         protected override void UnloadContent()

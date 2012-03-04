@@ -32,6 +32,29 @@ C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\obj\x8
 C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.exe
 C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.pdb
+<<<<<<< .mine
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\ball.xnb
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\wall.xnb
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\floor.xnb
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fall_left.xnb
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fall_right.xnb
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fs_still_left.xnb
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fs_still_right.xnb
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_jump_up_left.xnb
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_jump_up_right.xnb
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_slide_left.xnb
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_slide_right.xnb
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.exe
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.pdb
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\FarseerPhysicsXNA.dll
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\FarseerPhysicsXNA.pdb
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\FarseerPhysicsXNA.xml
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.exe
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.pdb
+=======
 C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\FarseerPhysicsXNA.dll
 C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\FarseerPhysicsXNA.pdb
 C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\FarseerPhysicsXNA.xml
+>>>>>>> .r6
