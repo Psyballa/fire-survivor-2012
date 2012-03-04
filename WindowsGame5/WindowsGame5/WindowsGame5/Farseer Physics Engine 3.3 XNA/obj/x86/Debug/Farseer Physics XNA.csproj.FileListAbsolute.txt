@@ -55,3 +55,9 @@ C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\Farsee
 C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\Farseer Physics Engine 3.3 XNA\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\Farseer Physics Engine 3.3 XNA\obj\x86\Debug\FarseerPhysicsXNA.dll
 C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\Farseer Physics Engine 3.3 XNA\obj\x86\Debug\FarseerPhysicsXNA.pdb
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\Farseer Physics Engine 3.3 XNA\bin\x86\Debug\FarseerPhysicsXNA.dll
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\Farseer Physics Engine 3.3 XNA\bin\x86\Debug\FarseerPhysicsXNA.pdb
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\Farseer Physics Engine 3.3 XNA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\Farseer Physics Engine 3.3 XNA\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\Farseer Physics Engine 3.3 XNA\obj\x86\Debug\FarseerPhysicsXNA.dll
+C:\Users\Psy\Desktop\Fire-Survivor-2012\WindowsGame5\WindowsGame5\WindowsGame5\Farseer Physics Engine 3.3 XNA\obj\x86\Debug\FarseerPhysicsXNA.pdb

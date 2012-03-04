@@ -9,37 +9,52 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
+using FarseerPhysics.Collision;
+using FarseerPhysics.Common;
+using FarseerPhysics.Controllers;
+using FarseerPhysics.Dynamics;
+using FarseerPhysics.Dynamics.Contacts;
+using FarseerPhysics.Factories;
+
 namespace WindowsGame5
 {
-    class Floor
+    class Floor : Body
     {
+        Game1 game;
+        Fixture floorFixture;
         Texture2D floor;
         int Height, Width, floorPosX, floorPosY;
         int floorCollisionRectOffset = -10;
 
-        public Floor(int Height, int Width, int floorPosX, int floorPosY)
+        public Floor(World gameWorld, Game1 game, Texture2D floorTexture, int Height, int Width, int floorPosX, int floorPosY, Vector2 offset)
+            : base(gameWorld)
         {
+            this.game = game;
+            this.floor = floorTexture;
             this.Height = Height;
             this.Width = Width;
             this.floorPosX = floorPosX;
             this.floorPosY = floorPosY;
-        
-        }
-        public bool Collide(Rectangle floorRect, Rectangle ballRect)
-        {
-            return floorRect.Intersects(ballRect);
+
+            floorFixture = FixtureFactory.AttachRectangle(Width/64f, Height/64f, 1, new Vector2(), this);
+            floorFixture.Body.BodyType = BodyType.Static;
+            floorFixture.CollisionCategories = Category.Cat2;
+            floorFixture.CollidesWith = Category.Cat1;
+            floorFixture.OnCollision += _OnCollision;
+
+            Position = new Vector2(game.Window.ClientBounds.Width / 2, game.Window.ClientBounds.Height / 2);
+
         }
 
-        public Rectangle floorRect()
+        public Boolean _OnCollision(Fixture fix1, Fixture fix2, Contact con)
         {
-           Rectangle floorRect = new Rectangle(
-               (int)floorPosX + floorCollisionRectOffset,
-               (int)floorPosY + floorCollisionRectOffset,
-               Width - (floorCollisionRectOffset * 2),
-               Height - (floorCollisionRectOffset * 2));
-
-            return floorRect;
+            if (fix2.CollisionCategories == Category.Cat1)
+            {
+                return true;
+            }
+            return false;
         }
+
 
         public void Update(GameTime gameTime)
         {
@@ -47,20 +62,9 @@ namespace WindowsGame5
 
         public void draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Begin();
-
             spriteBatch.Draw(floor,
-                new Rectangle(floorPosX, floorPosY,
-                    Width,
-                    Height),
+                new Vector2(floorPosX, floorPosY),
                     Color.White);
-
-            spriteBatch.End();
-        }
-
-        public void loadContent(Game game)
-        {
-            floor = game.Content.Load<Texture2D>("floor");
         }
     }
 }

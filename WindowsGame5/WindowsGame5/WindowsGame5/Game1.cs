@@ -9,15 +9,33 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
+using FarseerPhysics.Collision;
+using FarseerPhysics.Common;
+using FarseerPhysics.Controllers;
+using FarseerPhysics.Dynamics;
+using FarseerPhysics.Dynamics.Contacts;
+using FarseerPhysics.Factories;
+
+using FarseerPhysics.DebugViews;
+
 namespace WindowsGame5
 {
     public class Game1 : Microsoft.Xna.Framework.Game
     {
+        DebugViewXNA debugView;
+        World world;
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        Ball Jerry;
-        Floor Tom, floor;
+        Texture2D playerTexture, floorTexture;
+        Player Jerry;
+        Floor Tom;
 
+        Vector2 offset;
+
+        private Matrix _view;
+        private Vector2 _cameraPosition;
+        private Vector2 _screenCenter;
+        private const float MeterInPixels = 64f;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -27,9 +45,7 @@ namespace WindowsGame5
             Content.RootDirectory = "Content";
             Window.AllowUserResizing = false;
             Window.ClientSizeChanged += new EventHandler<EventArgs>(Window_ClientSizeChanged);
-            Jerry = new Ball();
-            Tom = new Floor(100, 720, 0, 350);
-            floor = new Floor(120, 1280, 0, 600);
+            
         }
 
         void Window_ClientSizeChanged(object sender, EventArgs e)
@@ -44,10 +60,20 @@ namespace WindowsGame5
 
         protected override void LoadContent()
         {
+            offset = new Vector2(Window.ClientBounds.Width / 2 - (16 * 15), Window.ClientBounds.Height / 2 - (16 * 15));
+            _view = Matrix.Identity;
+            _cameraPosition = Vector2.Zero;
+            _screenCenter = new Vector2(graphics.GraphicsDevice.Viewport.Width / 2f, graphics.GraphicsDevice.Viewport.Height / 2f);
+            world = new World(Vector2.Zero);
+            debugView = new DebugViewXNA(world);
+            debugView.AppendFlags(FarseerPhysics.DebugViewFlags.AABB);
+            debugView.LoadContent(GraphicsDevice, Content);
+            world.Gravity = new Vector2(0f, 20f);
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            Jerry.loadContent(this);
-            Tom.loadContent(this);
-            floor.loadContent(this);
+            playerTexture = Content.Load<Texture2D>(@"ball");
+            floorTexture = Content.Load<Texture2D>(@"floor");
+            Jerry = new Player(world, this, Window, playerTexture, offset);
+            Tom = new Floor(world, this, floorTexture, floorTexture.Height, floorTexture.Width, 0, Window.ClientBounds.Height/2, offset);
         }
 
         protected override void UnloadContent()
@@ -57,34 +83,26 @@ namespace WindowsGame5
         protected override void Update(GameTime gameTime)
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+            {
                 this.Exit();
-
+            }
+            world.Step(1);
             Jerry.Update(gameTime);
             Tom.Update(gameTime);
-
-            if (Jerry.Collide(Jerry.ballRect(), Tom.floorRect()))
-            {
-                Jerry.collided = true;
-            }
-            else if (Jerry.Collide(Jerry.ballRect(), floor.floorRect()))
-            {
-                Jerry.collided = true;
-            }
-            else
-            {
-                Jerry.collided = false;
-            }
-
-
             base.Update(gameTime);
         }
         
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
+            Matrix projection = Matrix.CreateOrthographicOffCenter(0f, graphics.GraphicsDevice.Viewport.Width / MeterInPixels,
+                graphics.GraphicsDevice.Viewport.Height / MeterInPixels, 0f, 0f, 1f);
+            Matrix view = Matrix.CreateTranslation(new Vector3((_cameraPosition / MeterInPixels) - (_screenCenter/MeterInPixels), 0f)) * Matrix.CreateTranslation(new Vector3((_screenCenter / MeterInPixels), 0f));
+            debugView.RenderDebugData(ref projection, ref view);
+            spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend);
             Jerry.draw(spriteBatch);
             Tom.draw(spriteBatch);
-            floor.draw(spriteBatch);
+            spriteBatch.End();
             base.Draw(gameTime);
         }
     }
