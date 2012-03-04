@@ -1,0 +1,34 @@
+c:\users\jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.exe
+c:\users\jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.pdb
+c:\users\jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.exe
+c:\users\jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.pdb
+C:\Users\Jack\Documents\Visual Studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\ball.xnb
+C:\Users\Jack\Documents\Visual Studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\wall.xnb
+C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\floor.xnb
+C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fall_left.xnb
+C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fall_right.xnb
+C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fs_still_left.xnb
+C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fs_still_right.xnb
+C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_jump_up_left.xnb
+C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_jump_up_right.xnb
+C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_slide_left.xnb
+C:\Users\Jack\documents\visual studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_slide_right.xnb
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\ball.xnb
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\wall.xnb
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\floor.xnb
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fall_left.xnb
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fall_right.xnb
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fs_still_left.xnb
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_fs_still_right.xnb
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_jump_up_left.xnb
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_jump_up_right.xnb
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_slide_left.xnb
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\FSsprites\spr_slide_right.xnb
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.exe
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.pdb
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.exe
+C:\Users\Jack\Desktop\fiya surivor\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.pdb
